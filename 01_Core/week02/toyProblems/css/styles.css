@@ -1,0 +1,37 @@
+.nav-sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  color: aliceblue;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  padding-top: 20px;
+}
+
+.nav-sidebar a {
+  padding: 16px 28%;
+  color: aliceblue;
+  display: block;
+}
+
+.nav-sidebar h3 {
+  padding: 0px 22%;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 960px;
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+
+.main-footer {
+  text-align: center;
+}

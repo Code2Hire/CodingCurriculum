@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+#lnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    margin-top: 50px;
+    width: 120px;
+    position: fixed;
+  }
+#lnav li {
+    padding-bottom: 4px;
+}
+
+
+  #hnav {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #hnav li{
+      display: inline;
+      padding: 4px;
+  }
+
+  .main{
+      margin: auto;
+      margin-top: 50px;
+      width: 50%;
+      height: 500px;
+      border: 2px solid;
+      text-align: center;
+  }
+
+  #rbow {  
+    text-align: left;
+    margin-left: 25%;
+      
+  }
+
+  footer{
+      padding-top: 30px;
+      text-align: center;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 4px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#nlist {
+  text-align: left;
+}
+#lname {
+  color: red;
+  font-weight: bold;
+}

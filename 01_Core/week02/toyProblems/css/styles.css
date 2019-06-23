@@ -38,6 +38,36 @@ form {
   text-align: center;
 }
 
+.nav-contact {
+  text-align: center;
+  margin-bottom: 126px;
+}
+
+.nav-contact ul li {
+  display: inline-block;
+}
+
+.nav-contact li a {
+  text-decoration: none;
+}
+
+.nav-contact ul li.dropdown-parent ul.dropdown-list {
+  display: none;
+}
+.nav-contact ul li.dropdown-parent:hover ul.dropdown-list {
+  display: block;
+  position: absolute;
+  top: 40px;
+}
+
+.nav-contact ul li.dropdown-parent ul.dropdown-list li {
+  width: auto;
+}
+
+.nav-contact ul li.dropdown-parent ul.dropdown-list li a {
+  display: block;
+}
+
 .content {
   max-width: 960px;
   margin: auto;

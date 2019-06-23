@@ -1,3 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 960px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.formElement {
+  padding-bottom: 16px;
+}
+
 .nav-sidebar {
   height: 100%;
   width: 160px;
@@ -10,21 +27,15 @@
 }
 
 .nav-sidebar a {
-  padding: 16px 28%;
+  padding: 8px;
+  text-align: center;
   color: aliceblue;
   display: block;
 }
 
 .nav-sidebar h3 {
-  padding: 0px 22%;
-}
-
-h1 {
+  padding: 0px;
   text-align: center;
-}
-
-img {
-  max-width: 960px;
 }
 
 .content {

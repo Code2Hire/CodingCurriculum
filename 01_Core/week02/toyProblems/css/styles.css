@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 h1 {
   text-align: center;
 }
@@ -15,6 +19,7 @@ form {
   padding-bottom: 16px;
 }
 
+/* Main Page Sidebar */
 .nav-sidebar {
   height: 100%;
   width: 160px;
@@ -38,34 +43,46 @@ form {
   text-align: center;
 }
 
+/* Contact page nav bar */
 .nav-contact {
   text-align: center;
-  margin-bottom: 126px;
+  margin: 0 0 200px 0;
+  width: 100%;
+}
+
+.nav-contact ul {
+  margin: 0;
+  background-color: darkslategrey;
 }
 
 .nav-contact ul li {
   display: inline-block;
+  padding: 12px 0;
 }
 
-.nav-contact li a {
+.nav-contact ul li a {
   text-decoration: none;
+  padding: 12px;
+  color: azure;
 }
 
+/* Dropdown Menu */
 .nav-contact ul li.dropdown-parent ul.dropdown-list {
   display: none;
 }
+
 .nav-contact ul li.dropdown-parent:hover ul.dropdown-list {
   display: block;
   position: absolute;
-  top: 40px;
+  /* border: solid red; */
+  padding-top: 12px;
+  padding-left: 0;
 }
 
 .nav-contact ul li.dropdown-parent ul.dropdown-list li {
-  width: auto;
-}
-
-.nav-contact ul li.dropdown-parent ul.dropdown-list li a {
   display: block;
+  text-align: left;
+  /* border: solid blue; */
 }
 
 .content {

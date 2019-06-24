@@ -1,10 +1,12 @@
 h1,
 h3 {
+  font-family: Verdana, Geneva, sans-serif;
   text-align: center;
   margin-bottom: 50px;
 }
 
 body {
+  font-family: Verdana, Geneva, sans-serif;
   margin: 0;
 }
 
@@ -69,7 +71,10 @@ form {
 .nameInputForm {
   left: 50%;
   margin-bottom: 120px;
-  padding-left: 11%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .lastName {
@@ -78,7 +83,7 @@ form {
 }
 
 #sortedNameList {
-  width: 120px;
+  width: 360px;
   margin: 0 auto;
 }
 

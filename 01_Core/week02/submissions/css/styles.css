@@ -1,0 +1,158 @@
+h1,
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 960px;
+  margin-bottom: 50px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.formElement {
+  padding-bottom: 16px;
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+.pageLinks {
+  display: inline-block;
+  padding: 0 28px;
+  margin-bottom: 50px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+}
+
+.socialMediaLinks {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  color: azure;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.foodLinks {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  color: azure;
+}
+
+.colorListTitle {
+  width: 256px;
+  margin: 28px auto 0;
+}
+
+.colorList {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.nameInputForm {
+  left: 50%;
+  margin-bottom: 120px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lastName {
+  color: red;
+  font-weight: bold;
+}
+
+#sortedNameList {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.main-footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Main Page Sidebar */
+.nav-sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  color: azure;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  padding-top: 20px;
+}
+
+.nav-sidebar a {
+  padding: 8px;
+  text-align: center;
+  color: azure;
+  display: block;
+}
+
+.nav-sidebar h3 {
+  padding: 0px;
+  text-align: center;
+}
+
+/* Contact page nav bar */
+.nav-contact {
+  text-align: center;
+  margin: 0 0 200px 0;
+  width: 100%;
+}
+
+.nav-contact ul {
+  margin: 0;
+  padding: 0;
+  background-color: darkslategrey;
+}
+
+.nav-contact ul li {
+  display: inline-block;
+  padding: 12px 0;
+}
+
+.nav-contact ul li a {
+  text-decoration: none;
+  padding: 12px;
+  color: azure;
+}
+
+/* Dropdown Menu */
+.nav-contact ul li.dropdown-parent ul.dropdown-list {
+  display: none;
+}
+
+.nav-contact ul li.dropdown-parent:hover ul.dropdown-list {
+  display: block;
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 0;
+}
+
+.nav-contact ul li.dropdown-parent ul.dropdown-list li {
+  display: block;
+  text-align: left;
+}

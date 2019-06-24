@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Contact</title>
+    <meta name="description" content="Contact page" />
+    <meta name="author" content="Bobby Craig" />
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-contact">
+        <ul>
+          <li><a href="#">Front</a></li>
+          <li class="dropdown-parent">
+            <a href="#">End</a>
+            <ul class="dropdown-list">
+              <li><a href="#">My</a></li>
+              <li><a href="#">Misery</a></li>
+              <li><a href="#">Make</a></li>
+              <li><a href="#">Me</a></li>
+              <li><a href="#">Back</a></li>
+              <li><a href="#">End</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Is</a></li>
+          <li><a href="#">The</a></li>
+          <li><a href="#">Worst</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="index.html" method="GET">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" />
+      </div>
+
+      <div class="formElement">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" />
+      </div>
+
+      <p style="margin: 0">Select your gender:</p>
+      <div>
+        <input type="radio" id="genderMale" name="gender" value="male" />
+        <label for="genderMale">Male</label>
+      </div>
+
+      <div class="formElement">
+        <input type="radio" id="genderFemale" name="gender" value="female" />
+        <label for="genderFemale">Female</label>
+      </div>
+
+      <div class="formElement">
+        <label for="favoriteSport">Select your favorite sport:</label>
+
+        <select id="favoriteSport">
+          <option value="none">None</option>
+          <option value="football">Football</option>
+          <option value="hockey">Hockey</option>
+          <option value="tennis">Tennis</option>
+          <option value="golf">Golf</option>
+          <option value="basketball">Basketball</option>
+          <option value="baseball">Baseball</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="formElement">
+        <fieldset>
+          <legend>Choose your favorite pizza toppings:</legend>
+          <div>
+            <input
+              type="checkbox"
+              id="pepperoni"
+              name="pizzaToppings"
+              value="pepperoni"
+            />
+            <label for="pepperoni">Pepperoni</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="sausage"
+              name="pizzaToppings"
+              value="sausage"
+            />
+            <label for="sausage">Sausage</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="mushrooms"
+              name="pizzaToppings"
+              value="mushrooms"
+            />
+            <label for="mushrooms">Mushrooms</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="onions"
+              name="pizzaToppings"
+              value="onions"
+            />
+            <label for="onions">Onions</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="bacon"
+              name="pizzaToppings"
+              value="bacon"
+            />
+            <label for="bacon">Bacon</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              id="extraCheese"
+              name="pizzaToppings"
+              value="extraCheese"
+            />
+            <label for="extraCheese">Extra Cheese</label>
+          </div>
+        </fieldset>
+      </div>
+      <div class="formElement">
+        <input type="submit" value="Save" />
+      </div>
+    </form>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

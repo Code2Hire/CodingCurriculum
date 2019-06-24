@@ -20,7 +20,11 @@ function alphaClick() {
 
   sortedNames.forEach(currentName => {
     const newListItem = document.createElement("li")
-    newListItem.innerText = currentName
+    let preparedName
+
+    preparedName = currentName.split(" ")
+    preparedName[1] = `<span class="lastName">${preparedName[1]}</span>`
+    newListItem.innerHTML = preparedName.join(" ")
 
     TARGET_UL_ELEMENT.insertAdjacentElement("beforeend", newListItem)
   })

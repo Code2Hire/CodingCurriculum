@@ -1,10 +1,10 @@
-body {
-  margin: 0;
-}
-
 h1,
 h3 {
   text-align: center;
+}
+
+body {
+  margin: 0;
 }
 
 img {
@@ -20,8 +20,29 @@ form {
   padding-bottom: 16px;
 }
 
-.alphaForm {
-  display: block;
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+
+.nameInputForm {
+  left: 50%;
+  margin-bottom: 120px;
+  padding-left: 11%;
+}
+
+.lastName {
+  color: red;
+  font-weight: bold;
+}
+
+#sortedNameList {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.main-footer {
+  text-align: center;
 }
 
 /* Main Page Sidebar */
@@ -87,13 +108,4 @@ form {
 .nav-contact ul li.dropdown-parent ul.dropdown-list li {
   display: block;
   text-align: left;
-}
-
-.content {
-  max-width: 960px;
-  margin: auto;
-}
-
-.main-footer {
-  text-align: center;
 }

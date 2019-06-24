@@ -25,6 +25,16 @@ form {
   margin: auto;
 }
 
+.colorListTitle {
+  width: 256px;
+  margin: 28px auto 0;
+}
+
+.colorList {
+  width: 80px;
+  margin: 0 auto;
+}
+
 .nameInputForm {
   left: 50%;
   margin-bottom: 120px;

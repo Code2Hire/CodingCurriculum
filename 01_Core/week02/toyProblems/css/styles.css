@@ -2,7 +2,8 @@ body {
   margin: 0;
 }
 
-h1 {
+h1,
+h3 {
   text-align: center;
 }
 
@@ -19,12 +20,16 @@ form {
   padding-bottom: 16px;
 }
 
+.alphaForm {
+  display: block;
+}
+
 /* Main Page Sidebar */
 .nav-sidebar {
   height: 100%;
   width: 160px;
   position: fixed;
-  color: aliceblue;
+  color: azure;
   top: 0;
   left: 0;
   background-color: #000000;
@@ -34,7 +39,7 @@ form {
 .nav-sidebar a {
   padding: 8px;
   text-align: center;
-  color: aliceblue;
+  color: azure;
   display: block;
 }
 
@@ -52,6 +57,7 @@ form {
 
 .nav-contact ul {
   margin: 0;
+  padding: 0;
   background-color: darkslategrey;
 }
 
@@ -74,7 +80,6 @@ form {
 .nav-contact ul li.dropdown-parent:hover ul.dropdown-list {
   display: block;
   position: absolute;
-  /* border: solid red; */
   padding-top: 12px;
   padding-left: 0;
 }
@@ -82,7 +87,6 @@ form {
 .nav-contact ul li.dropdown-parent ul.dropdown-list li {
   display: block;
   text-align: left;
-  /* border: solid blue; */
 }
 
 .content {

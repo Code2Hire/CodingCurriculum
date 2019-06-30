@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Exercise 3</title>
+  <meta name="description" content="ITA CSS Layout Exercise">
+  <meta name="author" content="Mark Kroh">
+
+  <style>
+	.container {
+		background-color: blue;
+		height: 220px;
+		width: 220px;
+		position: relative;
+	}
+    .interior {
+		height: 100px;
+		width: 100px;
+	}
+	.div1 {
+      background: white;
+      position: absolute;
+	  top: 0;
+	  left: 100px;
+	  height: 220px;
+    width: 20px;
+	}
+	.div2 {
+    background: white;
+    position: absolute;
+	  top: 100px;
+	  left: 0;
+	  height: 20px;
+    width: 220px;
+	}
+	.div3 {
+	  background-color: red;
+	  position: absolute;
+	  top: 60px;
+	  left: 60px;
+	  transform: rotate(45deg);
+	}
+	.div4 {
+	  width: 36px;
+    height: 36px;
+    background: white;
+    border-radius: 50%;
+	  position: absolute;
+	  top: 92px;
+	  left: 92px;	
+	}
+	.div5 {
+    margin: 50px 0;
+    position: absolute;
+    display: block;
+    color: black;
+	  top: 25px;
+	  left: 10px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid black;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg) scale(.08);
+  }
+  .div5:before {
+    border-bottom: 80px solid black;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+    .div5:after {
+      position: absolute;
+      display: block;
+      color: black;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid black;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+  
+  </style>
+</head>
+<body>
+	<!-- Do not touch the HTML please -->
+	<div class="container">
+		<div class="interior div1"></div>
+		<div class="interior div2"></div>
+		<div class="interior div3"></div>
+		<div class="interior div4"></div>
+		<div class="interior div5"></div>
+	</div>
+</body>
+</html>

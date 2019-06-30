@@ -9,7 +9,135 @@
   <meta name="author" content="Mark Kroh">
 
   <style>
-  	
+	.interior {
+		height: 100px;
+		width: 100px;
+	}
+	.div1 {
+		display: block;
+		background: tomato;
+		position: absolute;
+		left: 130px;
+		top: 20px;
+	}
+	.div1:before {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: lightcoral;
+		position: absolute;
+		left: -120px;
+	}
+	.div1:after {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: red;
+		position: absolute;
+		left: 120px;
+	}
+	.div2 {
+		display: block;
+		background: orange;
+		position: absolute;
+		left: 130px;
+		top: 140px;
+	}
+	.div2:before {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: navajowhite;
+		position: absolute;
+		left: -120px;
+	}
+	.div2:after {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: darkorange;
+		position: absolute;
+		left: 120px;
+	}
+	.div3 {
+		display: block;
+		background: rgb(255, 255, 95);
+		position: absolute;
+		left: 130px;
+		top: 260px;
+	}
+	.div3:before {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: rgb(255, 255,153);
+		position: absolute;
+		left: -120px;
+	}
+	.div3:after {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: yellow;
+		position: absolute;
+		left: 120px;
+	}
+	.div4 {
+		display: block;
+		background:  rgb(64, 64, 230);
+		position: absolute;
+		left: 130px;
+		top: 380px;
+	}
+	.div4:before {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: rgba(0, 0, 255, 0.459);
+		position: absolute;
+		left: -120px;
+	}
+	.div4:after {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: blue;
+		position: absolute;
+		left: 120px;
+	}
+	.div5 {
+		display: block;
+		background:rgba(238, 130, 238, 0.726);
+		position: absolute;
+		left: 130px;
+		top: 500px;
+	}
+	.div5:before {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: rgba(238, 130, 238, 0.356);
+		position: absolute;
+		left: -120px;
+	}
+	.div5:after {
+		content: '';
+		display: block;
+		height: 100px;
+		width: 100px;
+		background: violet;
+		position: absolute;
+		left: 120px;
+	}
   </style>
 </head>
 <body>

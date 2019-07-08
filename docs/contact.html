@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/form.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="container">
+                <div class="flexwrap-1">
+                    <img class="logo" src="images/logo.jpg" alt="sitename">
+                </div>
+                <div class="flexwrap-2">
+                    <h1><a href="index.html">ITA Discs</a></h1>
+                </div>
+
+                <nav>
+                    <div class="flexwrap-3">
+                        <a href="shop.html">Shop</a>
+                        <a href="search.html">Search</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+        <!-- remove pattern attributes of email and phone to test javascript validation for those fields otherwise the HTML will stop you-->
+        <form class="contact" name="myForm" onsubmit="return validateForm()" method="post">
+            <h2>Contact</h2>
+            <h3>Name:</h3>
+            <input type="text" id="name" name="name" size="40"><br><br>
+            <h3>Email:</h3>
+            <input type="email" id="email" name="email" pattern=".+@.+..+" title="Please enter a valid email" size="40"><br><br>
+            <h3>Phone:</h3>
+            <input type="tel" id="phone" name="phone" pattern='\d{3}[\-]\d{3}[\-]\d{4}' title='Phone Number (Format: ###-###-####)' placeholder="###-###-####" size="40"><br><br>
+            <h3>Preferred method of contact:</h3>
+            <input type="radio" id="prefemail" name="contact" checked> Email<br>
+            <input type="radio" id="prefphone" name="contact"> Phone<br><br>
+            <h3>How did you hear about us? (Optional)</h3>
+            <input type="checkbox" name="ref1">Social Media<br>
+            <input type="checkbox" name="ref2">TV<br>
+            <input type="checkbox" name="ref3">Website<br>
+            <input type="checkbox" name="ref4">Event<br>
+            <input type="checkbox" name="ref5">Friend<br>
+            <input type="checkbox" name="ref6">Other<br><br>
+            <h3>Questions or comments:</h3>
+            <textarea name="message" rows="10" cols="40"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        fake copyright 2019 ita week 4
+    </footer>
+</body>
+
+</html>

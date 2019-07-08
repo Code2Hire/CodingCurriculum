@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="container">
+                <div class="flexwrap-1">
+                    <img class="logo" src="images/logo.jpg" alt="sitename">
+                </div>
+                <div class="flexwrap-2">
+                    <h1><a href="index.html ">ITA Discs</a></h1>
+                </div>
+
+                <nav>
+                    <div class="flexwrap-3">
+                        <a href="shop.html">Shop</a>
+                        <a href="search.html">Search</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <div class="slider">
+            <img class="mySlides" src="images/h4a.jpg" alt="slider disc">
+            <img class="mySlides" src="images/p3.jpg" alt="slider disc">
+            <img class="mySlides" src="images/p1a.jpg" alt="slider disc">
+            <img class="mySlides" src="images/d2.jpg" alt="slider disc">
+            <img class="mySlides" src="images/p2a.jpg" alt="slider disc">
+            <img class="mySlides" src="images/d1.jpg" alt="slider disc">
+            <img class="mySlides" src="images/m1a.jpg" alt="slider disc">
+            <img class="mySlides" src="images/m2.jpg" alt="slider disc">
+        </div>
+
+        <h2>Featured Discs</h2>
+        <div class="grid">
+            <div class="product">
+                <a href="details.html"><img class="featured" src="images/h6.jpg" alt="desc"></a>
+                <h3 class="product__name">Aviar Putt/Approach Pro</h3>
+                <p>Designed by Innova for longer putts that require a fade</p>
+                <p class="price">$9.99</p>
+            </div>
+            <div class="product">
+                <a href="details.html"><img class="featured" src="images/m1.jpg" alt="desc"></a>
+                <h3 class="product__name">StarGator Midrange</h3>
+                <p>Designed by Innova for midrange drives that require an overstable approach</p>
+                <p class="price">$9.99</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        fake copyright 2019 ita week 4
+    </footer>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>

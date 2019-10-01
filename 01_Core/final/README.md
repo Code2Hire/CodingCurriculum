@@ -5,8 +5,8 @@
 1. Install Docker: 
 	Windows/Mac	https://docs.docker.com/install/
 2. Or for Linux run the following commands:
-		* sudo yum install docker-engine -y
-		* sudo service docker start
+	1. sudo yum install docker-engine -y
+	2. sudo service docker start
 
 ## Running this project
 

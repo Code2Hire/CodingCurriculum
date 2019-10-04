@@ -28,7 +28,7 @@ var err error
 
 func main() {
 	//open db connection
-	db, err = sql.Open("mysql", os.Getenv("MYSQL_USER")+":"+os.Getenv("MYSQL_PASSWORD")+"@tcp(db:3306)/"+os.Getenv("MYSQL_DATABASE"))
+	db, err = sql.Open("mysql", os.Getenv("MYSQL_USER")+":"+os.Getenv("MYSQL_PASSWORD")+"@tcp(db:3306)/test_db")
 	if err != nil {
 		panic(err.Error())
 	}

@@ -2,6 +2,8 @@ version: '3'
 services:
   db:
     env_file: .env
+    environment:
+      - MYSQL_DATABASE=test_db
     build:
       context: ./MySQL
     container_name: golang_db

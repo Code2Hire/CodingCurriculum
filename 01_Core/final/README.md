@@ -10,6 +10,9 @@
 
 ## Running this project
 
+Special note: Make sure you have nothing using port 3306, 8080, or 80.
+3306 is commonly used by msql databases.
+
 1. Clone the repo
 2. Create your own .env file based off of .env.example
 3. Navigate to your installation folder via cli

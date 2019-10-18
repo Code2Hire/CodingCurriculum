@@ -1,0 +1,31 @@
+label{
+    display: inline-block;
+    margin-top: 10px;
+}
+form input{
+    display:block;
+}
+form select{
+    display:block;
+}
+.navbar{
+    border-bottom: 1px solid grey;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+.nav-anchor{
+    color: black;
+    text-decoration: inherit;
+}
+.contact-form{
+    display: inline-block;
+    margin-top: 20px;
+    width: 300px;
+}
+.pizza-checkbox{
+    display: inline-block;
+}

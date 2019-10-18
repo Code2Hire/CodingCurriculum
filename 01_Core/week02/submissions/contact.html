@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="nav-item"><a class="nav-anchor" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-anchor" href="about-me.html">About Me</a></li>
+                <li class="nav-item"><a class="nav-anchor" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-anchor" href="drop-down.html">Dropdown</a></li>
+                <li class="nav-item"><a class="nav-anchor" href="other.html">Other</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="contact-form" action="submit" method="GET">
+        <fieldset id="contact-fieldset-1">
+            <label for="firstName">First Name:</label>
+            <input type="text">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text">
+
+            <label for="gender">Gender:</label>
+            <select name="gender" id="">
+                <option value="" disabled selected>Please Choose a Gender...</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+            
+            <label for="">Favorite Sport:</label>
+            <select name="" id="">
+                <option value="" disabled selected>Please Choose a Sport...</option>
+            </select>
+
+            <label for="pizza-toppings">Choose your favorite pizza toppings:</label>
+            <br>
+            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Pepperoni<br>
+            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Cheese<br>
+            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Peppers<br>
+            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Olives<br>
+            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Chicken<br>
+        </fieldset>
+    </form>
+</body>
+</html>

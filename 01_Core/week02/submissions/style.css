@@ -1,7 +1,17 @@
+/* GENERAL STYLES */
+body{
+    margin-right: 140px;
+}
 label{
     display: inline-block;
     margin-top: 10px;
 }
+h1{
+    text-align: center;
+}
+
+/* CLASS SPECIFIC STYLES */
+
 form input{
     display:block;
 }
@@ -10,6 +20,7 @@ form select{
 }
 .navbar{
     border-bottom: 1px solid grey;
+    margin-bottom: 40px;
 }
 .navbar-list{
     display: flex;
@@ -21,6 +32,19 @@ form select{
     color: black;
     text-decoration: inherit;
 }
+.bio-container{
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+.main-content-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main-content-container div{
+    margin: 0px 50px 0px 50px;
+}
 .contact-form{
     display: inline-block;
     margin-top: 20px;
@@ -28,4 +52,27 @@ form select{
 }
 .pizza-checkbox{
     display: inline-block;
+}
+.sidebar{
+    height: 100%;
+    width: 140px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(190, 190, 190);
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 15px;
+    text-align: center;
+}
+.sidebar p{
+    text-align: center;
+    margin-top: 0px;
+    color: black;
+}
+.sidebar a{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color:black;;
 }

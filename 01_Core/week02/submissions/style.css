@@ -1,10 +1,6 @@
 /* GENERAL STYLES */
 body{
-    /* margin-right: 140px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px; */
-    margin: 0px 140px 0px 0px;
+    margin: 0;
 }
 label{
     display: inline-block;
@@ -26,13 +22,15 @@ form select{
     border-bottom: 1px solid grey;
     margin-bottom: 40px;
     background-color: black;
+    z-index: 1;
+    position: relative;
 }
 .navbar-list{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    padding: 10px 0px 10px 0px;
-    margin:0px;
+    padding: 20px 0px 20px 0px;
+    margin:0px 140px 0px 0px;
 }
 .nav-anchor{
     color: white;
@@ -43,12 +41,15 @@ form select{
     margin: auto;
     width: 600px;
 }
-.main-content-container{
+.main-container{
+    margin-right: 140px;
+}
+.secondary-content-container{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-.main-content-container div{
+.secondary-content-container div{
     margin: 0px 50px 0px 50px;
 }
 .contact-form{
@@ -63,13 +64,13 @@ form select{
     height: 100%;
     width: 140px;
     position: absolute;
-    z-index: 1;
-    background-color: rgb(190, 190, 190);
     top: 0;
     right: 0;
     overflow-x: hidden;
-    padding-top: 15px;
+    padding-top: 65px;
     text-align: center;
+    border-left: 1px solid grey;
+    z-index: 0;
 }
 .sidebar p{
     text-align: center;
@@ -81,4 +82,30 @@ form select{
     margin: 10px;
     text-decoration: none;
     color:black;;
+}
+.contact-form-button{
+    margin-top: 10px;
+}
+.footer-container{
+    background-color: darkgray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+.copyright-year{
+    text-align: center;
+}
+.social-media-list{
+    display:flex;
+    justify-content: center;
+    padding: 0;
+}
+.social-media-link{
+    margin: 0px 10px 0px 10px;
+    list-style-type: none;
+}
+.social-media-anchor{
+    text-decoration: none;
+    color: black;
 }

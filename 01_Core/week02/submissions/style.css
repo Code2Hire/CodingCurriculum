@@ -1,6 +1,10 @@
 /* GENERAL STYLES */
 body{
-    margin-right: 140px;
+    /* margin-right: 140px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px; */
+    margin: 0px 140px 0px 0px;
 }
 label{
     display: inline-block;
@@ -21,15 +25,17 @@ form select{
 .navbar{
     border-bottom: 1px solid grey;
     margin-bottom: 40px;
+    background-color: black;
 }
 .navbar-list{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    padding: 0;
+    padding: 10px 0px 10px 0px;
+    margin:0px;
 }
 .nav-anchor{
-    color: black;
+    color: white;
     text-decoration: inherit;
 }
 .bio-container{

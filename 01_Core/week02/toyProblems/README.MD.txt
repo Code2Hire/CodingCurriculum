@@ -7,7 +7,7 @@
 --HARD: Create a contact page with an HTML form with a GET method that will collect the following: First Name, Last Name, Gender (have them pick), Favorite sport (from a dropdown list of at least 5), Checkboxes for what you like on your pizza (from a list of at least 5) and
 the submit button should read, "Save".
 
-~VERY HARD: On the same site, create a horizontal navigation of 5 items, one of the items should have a dropdown menu when you hover over it.
+--VERY HARD: On the same site, create a horizontal navigation of 5 items, one of the items should have a dropdown menu when you hover over it.
 
 VERY HARD: Given a comma separated string of full names, use JavaScript to create an alphabetical-by-Last-Name, ordered list and have it display in an HTML page on your site. Make the last names bold and red using CSS (NOT inline styles).
 

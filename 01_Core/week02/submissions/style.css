@@ -35,6 +35,28 @@ form select{
 .nav-anchor{
     color: white;
     text-decoration: inherit;
+    padding: 0px 0px 12px 0px;
+}
+.drop-down-content{
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+.drop-down-item{
+    display: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px 5px 5px ;
+    background-color: black;
+    border: 1px solid black;
+}
+.drop-down-item:hover{
+    display: block;
+    background-color: white;
+    color:black;
+}
+.drop-down:hover .drop-down-item{
+    display: block;
 }
 .bio-container{
     display: block;

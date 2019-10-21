@@ -39,11 +39,9 @@ form select{
 }
 .drop-down-content{
     position: absolute;
-    top: 50px;
-    left: 840px;
 }
 .drop-down-item{
-    display: none;
+    display: block;
     text-decoration: none;
     color: white;
     padding: 5px 20px 5px 5px ;

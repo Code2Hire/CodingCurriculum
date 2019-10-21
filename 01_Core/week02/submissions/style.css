@@ -136,3 +136,7 @@ form select{
     text-decoration: none;
     color: black;
 }
+.red-word{
+    color: red;
+    font-weight: bold;
+}

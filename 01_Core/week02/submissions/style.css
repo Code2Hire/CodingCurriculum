@@ -40,7 +40,7 @@ form select{
 .drop-down-content{
     position: absolute;
     top: 50px;
-    left: 750px;
+    left: 716px;
 }
 .drop-down-item{
     display: none;
@@ -75,8 +75,9 @@ form select{
     margin: 0px 50px 0px 50px;
 }
 .contact-form{
-    display: inline-block;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
 }
 .pizza-checkbox{
@@ -92,6 +93,7 @@ form select{
     padding-top: 65px;
     text-align: center;
     border-left: 1px solid grey;
+    background-color: papayawhip;
     z-index: 0;
 }
 .sidebar p{
@@ -114,6 +116,7 @@ form select{
     bottom: 0;
     width: 100%;
     z-index: 2;
+    border: 1px solid black;
 }
 .copyright-year{
     text-align: center;

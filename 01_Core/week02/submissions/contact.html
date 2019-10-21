@@ -14,48 +14,55 @@
                 <li class="nav-item"><a class="nav-anchor" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-anchor" href="about-me.html">About Me</a></li>
                 <li class="nav-item"><a class="nav-anchor" href="contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-anchor" href="drop-down.html">Dropdown</a></li>
-                <li class="nav-item"><a class="nav-anchor" href="other.html">Other</a></li>
+                <li class="nav-item drop-down"><a class="nav-anchor" href="drop-down.html">Dropdown</a>
+                <div class="drop-down-content">
+                    <a class="drop-down-item" href="###">Selection 1</a>
+                    <a class="drop-down-item" href="###">Selection 2</a>
+                    <a class="drop-down-item" href="###">Selection 3</a>
+                </div></li>
+                <li class="nav-item"><a class="nav-anchor" href="contact-list.html">Contact List</a></li>
             </ul>
         </nav>
     </header>
 
-    <form class="contact-form" action="submit" method="GET">
-        <fieldset id="contact-fieldset-1">
-            <label for="firstName">First Name:</label>
-            <input type="text">
+    <div class="main-contact-container">
+        <form class="contact-form" action="submit" method="GET">
+            <fieldset id="contact-fieldset-1">
+                <label for="firstName">First Name:</label>
+                <input type="text">
 
-            <label for="lastName">Last Name:</label>
-            <input type="text">
+                <label for="lastName">Last Name:</label>
+                <input type="text">
 
-            <label for="gender">Gender:</label>
-            <select name="gender" id="">
-                <option value="" disabled selected>Please Choose a Gender...</option>
-                <option value="">Male</option>
-                <option value="">Female</option>
-            </select>
-            
-            <label for="">Favorite Sport:</label>
-            <select name="" id="">
-                <option value="" disabled selected>Please Choose a Sport...</option>
-                <option value="">Football</option>
-                <option value="">Basketball</option>
-                <option value="">Baseball</option>
-                <option value="">Swimming</option>
-                <option value="">Tennis</option>
-            </select>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="">
+                    <option value="" disabled selected>Please Choose a Gender...</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+                
+                <label for="">Favorite Sport:</label>
+                <select name="" id="">
+                    <option value="" disabled selected>Please Choose a Sport...</option>
+                    <option value="">Football</option>
+                    <option value="">Basketball</option>
+                    <option value="">Baseball</option>
+                    <option value="">Swimming</option>
+                    <option value="">Tennis</option>
+                </select>
 
-            <label for="pizza-toppings">Choose your favorite pizza toppings:</label>
-            <br>
-            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Pepperoni<br>
-            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Cheese<br>
-            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Peppers<br>
-            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Olives<br>
-            <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Chicken<br>
+                <label for="pizza-toppings">Choose your favorite pizza toppings:</label>
+                <br>
+                <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Pepperoni<br>
+                <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Cheese<br>
+                <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Peppers<br>
+                <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Olives<br>
+                <input type="checkbox" name="pizza-checkbox" class="pizza-checkbox">Chicken<br>
 
-            <button class="contact-form-button" type="submit">Save</button>
-        </fieldset>
-    </form>
+                <button class="contact-form-button" type="submit">Save</button>
+            </fieldset>
+        </form>
+    </div>
 
     <div class="sidebar">
         <p>External Info:</p>
@@ -63,5 +70,20 @@
         <a href="https://codepen.io/csmit441"><i>Codepen</i></a>
     </div>
 
+    <footer class="footer-container">
+            <p class="copyright-year">© Copyright 2019</p>
+    
+            <div class="social-media">
+                <ul class="social-media-list">
+                    <li class="social-media-link"><a class="social-media-anchor" href="facebook.com">Facebook</a></li>
+                    <li class="social-media-link"><a class="social-media-anchor" href="instagram.com">Instagram</a></li>
+                    <li class="social-media-link"><a class="social-media-anchor" href="twitter.com">Twitter</a></li>
+                </ul>
+            </div>
+        </footer>
+
 </body>
+
+<script src="script.js"></script>
+
 </html>

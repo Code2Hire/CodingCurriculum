@@ -1,16 +1,7 @@
-//DOM ELEMENTS
-saveButton = document.querySelector(".contact-form-button");
-saveButton.addEventListener("click", generateNameList());
+var generateButton = document.querySelector("button");
+generateButton.addEventListener("click", generateList);
 
-function Person(firstName, lastName){
-    this.firstName = firstName;
-    this.lastName = lastName;
-}
 
-function generateNameList(e){
-    e.preventDefault();
+function generateList(){
 
-    const test = document.querySelectorAll("input").value;
-
-    console.log(test);
 }

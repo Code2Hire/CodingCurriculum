@@ -41,7 +41,7 @@ form select{
     position: absolute;
 }
 .drop-down-item{
-    display: block;
+    display: hidden;
     text-decoration: none;
     color: white;
     padding: 5px 20px 5px 5px ;

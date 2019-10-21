@@ -67,9 +67,6 @@ form select{
     display: flex;
     justify-content: flex-start;
 }
-.main-container{
-    margin-right: 140px;
-}
 .secondary-content-container{
     display: flex;
     justify-content: center;

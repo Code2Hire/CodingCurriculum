@@ -9,7 +9,41 @@
   <meta name="author" content="Mark Kroh">
 
   <style>
-  	
+  	.container{
+		  width: 330px;
+		  height: 165px; 
+		  margin: auto;
+		  border: 1px solid black;
+		  display: grid;
+		  grid-template-rows: repeat(6, 16.6%);
+		  grid-template-columns: repeat(12, 8.3%);
+	  }
+	  .interior{
+		  width: 100px;
+		  height: 100px;
+		  border: 5px solid white;
+	  }
+	  .div1{
+		  background-color: red;
+	  }
+	  .div2{
+		  background-color: orange;
+		  grid-area: 1 / 5 / span 1 / span 1;
+	  }
+	  .div3{
+		  background-color: yellow;
+		  grid-area: 1 / 9 / span 1 / span 1;
+	  }
+	  .div4{
+		  background-color: blue;
+		  grid-area: 3 / 3 / span 1 / span 1;
+		  margin-left: -5px;
+	  }
+	  .div5{
+		  background-color: pink;
+		  grid-area: 3 / 7 / span 1 / span 1;
+		  margin-left: 5px;
+	  }
   </style>
 </head>
 <body>

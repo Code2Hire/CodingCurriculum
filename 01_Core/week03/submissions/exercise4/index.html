@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Exercise 4</title>
+  <meta name="description" content="ITA CSS Layout Exercise">
+  <meta name="author" content="Mark Kroh">
+
+  <style>
+  	.container{
+		  width: 275px;
+		  height: 275px; 
+		  margin: auto;
+		  border: 1px solid black;
+		  display: grid;
+		  grid-template-rows: repeat(20, 5%);
+		  grid-template-columns: repeat(20, 5%);
+	  }
+	  .interior{
+		  width: 100px;
+		  height: 100px;
+		  border: 5px solid white;
+	  }
+	  .div1{
+		  background-color: red;
+		  grid-area: 1 / 1 / span 1 / span 1;
+	  }
+	  .div2{
+		  background-color: orange;
+		  grid-area: 4 / 4 / span 1 / span 1;
+	  }
+	  .div3{
+		  background-color: yellow;
+		  grid-area: 7 / 7 / span 1 / span 1;
+	  }
+	  .div4{
+		  background-color: blue;
+		  grid-area: 10 / 10 / span 1 / span 1;
+	  }
+	  .div5{
+		  background-color: pink;
+		  grid-area: 13 / 13 / span 1 / span 1;
+	  }
+		 
+  </style>
+</head>
+<body>
+	<!-- Do not touch the HTML please -->
+	<div class="container">
+		<div class="interior div1"></div>
+		<div class="interior div2"></div>
+		<div class="interior div3"></div>
+		<div class="interior div4"></div>
+		<div class="interior div5"></div>
+	</div>
+</body>
+</html>

@@ -7,6 +7,7 @@
     <title>Gamers Alley - Contact</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <script src="https://kit.fontawesome.com/01b172b534.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -23,7 +24,34 @@
         </header>
     
         <div class="main">
-    
+            <form class="contact-form" action="###" method="GET">
+                <fieldset class="contact-form__fieldset">
+                    <h3>Contact Form</h3>
+                    <p>Fill out the form to stay updated with our products and specials</p>
+                    
+                    <label class="contact-form__label" for="first-name">First Name:</label>
+                    <input class="contact-form__input" type="text">
+                    <label class="contact-form__label" for="last-name">Last Name:</label>
+                    <input class="contact-form__input" type="text">
+                    <label class="contact-form__label" for="email">Email:</label>
+                    <input class="contact-form__input" type="email">
+                    <label class="contact-form__label" for="phone-number">Phone Number:</label>
+                    <input class="contact-form__input" type="number">
+                    <label class="contact-form__label" for="preferred-contact-method">Preferred Contact Method:</label>
+                    <input class="contact-form__input--radio" type="radio" name="preferred-contact-method">Email
+                    <input class="contact-form__input--radio" type="radio" name="preferred-contact-method" style="margin-left: 10px">Phone
+                    <label class="contact-form__label" for="email">How did you hear about us?</label>
+                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Conference<br>
+                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">TV<br>
+                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Radio<br>
+                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Word of Mouth<br>
+                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Other<br>
+                    <textarea class="contact-form__textarea" cols="50" rows="10" placeholder="Other comments"></textarea>
+                    <button class="contact-form__button">Submit</button>
+                    
+
+                </fieldset>
+            </form>
         </div>
     
         <footer>

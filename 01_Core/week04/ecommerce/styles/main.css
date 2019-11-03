@@ -16,7 +16,6 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: fixed;
   width: 100%;
   height: auto;
   padding: 16px 0px 16px 0px;

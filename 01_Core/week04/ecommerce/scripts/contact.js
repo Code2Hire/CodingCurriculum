@@ -5,5 +5,8 @@ contactForm.addEventListener("submit", formValidation);
 
 function formValidation(e){
     e.preventDefault();
-    console.log('test');
+
+    contactForm.reset();
+
+    console.log('submit works');
 }

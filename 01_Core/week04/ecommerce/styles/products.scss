@@ -1,13 +1,10 @@
-.main{
-    width: 60%;
-    margin: auto;
-}
 .product-filter{
     display: flex;
     justify-content: center;
     margin: 100px 0px 0px 0px;
     background-color: #DBDBE1;
     padding: 10px 0px 10px 0px;
+    align-items: center;
 
     .product-filter__input{
         margin: 0px 10px 0px 0px;
@@ -25,6 +22,7 @@
     .product-item{
         margin: 20px auto 0px 0px;
         width: 33%;
+        text-align: center;
         img{
             width: 100px;
             height: 100px;
@@ -33,7 +31,49 @@
             width: 80%;
         }
         p{
-            width: 80%;
+            width: 75%;
+            margin: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .product-list{
+
+        .product-item{
+            width: 50%;
+
+        }
+    }
+}
+@media only screen and (max-width: 900px){
+    .product-filter{
+        .product-filter__h4{
+            margin: 0px;
+        }
+    }
+}
+@media only screen and (max-width: 700px){
+    .product-list{
+
+        .product-item{
+            width: 100%;
+
+            p{
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 2500px){
+    .product-list{
+
+        .product-item{
+            width: 25%;
+
+            p{
+                width: 100%;
+            }
         }
     }
 }

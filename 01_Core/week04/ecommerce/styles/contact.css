@@ -24,4 +24,11 @@
 .contact-form .contact-form__button {
   margin: 5px 0px 5px 0px;
 }
+
+.contact-form .contact-form__pg--error-msg {
+  color: red;
+  font-size: 12px;
+  margin-top: 0px;
+  display: none;
+}
 /*# sourceMappingURL=contact.css.map */

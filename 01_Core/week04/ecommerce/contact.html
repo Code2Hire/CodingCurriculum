@@ -27,27 +27,38 @@
             <form class="contact-form" action="###" method="GET">
                 <fieldset class="contact-form__fieldset">
                     <h3>Contact Form</h3>
-                    <p>Fill out the form to stay updated with our products and specials</p>
+                    <h5>Fill out the form to stay updated with our products and specials</h5>
                     
                     <label class="contact-form__label" for="first-name">First Name:</label>
-                    <input class="contact-form__input" type="text">
+                    <input class="contact-form__input input--first-name" type="text" required>
+                    <p class="contact-form__pg--error-msg error-msg-1">* required</p>
+
                     <label class="contact-form__label" for="last-name">Last Name:</label>
-                    <input class="contact-form__input" type="text">
+                    <input class="contact-form__input input--last-name" type="text" required>
+                    <p class="contact-form__pg--error-msg error-msg-2">* required</p>
+
                     <label class="contact-form__label" for="email">Email:</label>
-                    <input class="contact-form__input" type="email">
+                    <input class="contact-form__input input--email" type="email" required>
+                    <p class="contact-form__pg--error-msg error-msg-3">* required</p>
+
                     <label class="contact-form__label" for="phone-number">Phone Number:</label>
-                    <input class="contact-form__input" type="number">
+                    <input class="contact-form__input input--phone-number" type="tel" required>
+                    <p class="contact-form__pg--error-msg error-msg-4">* required</p>
+
                     <label class="contact-form__label" for="preferred-contact-method">Preferred Contact Method:</label>
-                    <input class="contact-form__input--radio" type="radio" name="preferred-contact-method">Email
-                    <input class="contact-form__input--radio" type="radio" name="preferred-contact-method" style="margin-left: 10px">Phone
+                    <input class="contact-form__input--radio input__radio--email" type="radio" name="preferred-contact-method" required>Email
+                    <input class="contact-form__input--radio input__radio--phone" type="radio" name="preferred-contact-method" style="margin-left: 10px" required>Phone
+                    <p class="contact-form__pg--error-msg error-msg-5">* required</p>
+
                     <label class="contact-form__label" for="email">How did you hear about us?</label>
-                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Conference<br>
-                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">TV<br>
-                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Radio<br>
-                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Word of Mouth<br>
-                    <input class="contact-form__input--checkbox" type="checkbox" name="referal-choices">Other<br>
-                    <textarea class="contact-form__textarea" cols="50" rows="10" placeholder="Other comments"></textarea>
-                    <button class="contact-form__button">Submit</button>
+                    <input class="contact-form__input--checkbox " type="checkbox" name="referal-choices">Conference<br>
+                    <input class="contact-form__input--checkbox input__checkbox--tv" type="checkbox" name="referal-choices">TV<br>
+                    <input class="contact-form__input--checkbox input__checkbox--radio" type="checkbox" name="referal-choices">Radio<br>
+                    <input class="contact-form__input--checkbox input__checkbox--wordofmouth" type="checkbox" name="referal-choices">Word of Mouth<br>
+                    <input class="contact-form__input--checkbox input__checkbox--other" type="checkbox" name="referal-choices">Other<br>
+
+                    <textarea class="contact-form__textarea" cols="50" rows="4" placeholder="Other comments"></textarea>
+                    <input class="contact-form__button" type="submit">
                     
 
                 </fieldset>
@@ -66,4 +77,7 @@
             </div>
         </footer>
 </body>
+
+<script src="scripts/contact.js"></script>
+
 </html>

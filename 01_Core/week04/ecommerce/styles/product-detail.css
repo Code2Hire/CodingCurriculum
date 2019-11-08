@@ -32,4 +32,8 @@
 .product-info .img-bar img {
   width: 50px;
 }
+
+.product-info .img-bar img:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=product-detail.css.map */

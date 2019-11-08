@@ -23,6 +23,11 @@
 
         img{
             width: 50px;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
+
     }
 }

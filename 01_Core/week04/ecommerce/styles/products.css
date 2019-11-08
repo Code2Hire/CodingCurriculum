@@ -48,6 +48,10 @@
   width: 80%;
 }
 
+.product-list .product-item h5 {
+  margin: 10px 0px 0px 0px;
+}
+
 .product-list .product-item p {
   width: 75%;
   margin: auto;

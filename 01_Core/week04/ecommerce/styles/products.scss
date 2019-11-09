@@ -1,3 +1,5 @@
+$header-font: fantasy;
+
 .product-filter{
     display: flex;
     justify-content: center;
@@ -5,12 +7,15 @@
     background-color: #DBDBE1;
     padding: 10px 0px 10px 0px;
     align-items: center;
+    height: 30px;
 
     .product-filter__input{
         margin: 0px 10px 0px 0px;
     }
     .product-filter__h4{
         margin: 0px 60px 0px 0px;
+        font-family: $header-font;
+        margin-top: 5px;
     }
 }
 .product-list{
@@ -28,15 +33,15 @@
             height: 100px;
         }
         h4{
-            width: 80%;
-        }
-        h5{
             margin: 10px 0px 0px 0px;
-
+            font-family: $header-font;
+            font-weight: 100;
         }
         p{
             width: 75%;
             margin: auto;
+            font-family: cursive;
+            font-size: 12px;
         }
     }
 }

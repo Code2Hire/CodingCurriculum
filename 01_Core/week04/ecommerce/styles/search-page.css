@@ -5,6 +5,7 @@
 
 .search-bar .search-bar__label {
   margin: 0px 10px 0px 0px;
+  font-family: fantasy;
 }
 
 .search-bar .search-bar__input {

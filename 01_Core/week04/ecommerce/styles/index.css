@@ -3,6 +3,14 @@
           box-sizing: border-box;
 }
 
+.container {
+  margin: 50px auto 0px 0px;
+}
+
+.featured-container__h2 {
+  font-family: fantasy;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 400px;

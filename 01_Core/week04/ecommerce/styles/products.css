@@ -11,6 +11,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 30px;
 }
 
 .product-filter .product-filter__input {
@@ -19,6 +20,8 @@
 
 .product-filter .product-filter__h4 {
   margin: 0px 60px 0px 0px;
+  font-family: fantasy;
+  margin-top: 5px;
 }
 
 .product-list {
@@ -45,16 +48,16 @@
 }
 
 .product-list .product-item h4 {
-  width: 80%;
-}
-
-.product-list .product-item h5 {
   margin: 10px 0px 0px 0px;
+  font-family: fantasy;
+  font-weight: 100;
 }
 
 .product-list .product-item p {
   width: 75%;
   margin: auto;
+  font-family: cursive;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 1100px) {

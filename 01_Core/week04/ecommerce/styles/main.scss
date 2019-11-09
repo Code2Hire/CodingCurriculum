@@ -1,7 +1,11 @@
+//VARIABLES
+$header-font: fantasy;
+
 //GLOBAL STYLES
 .main{
-    width: 60%;
+    width: 75%;
     margin: auto;
+    position: relative;
 }
 ul{
     list-style: none;
@@ -26,6 +30,7 @@ ul{
         font-weight: bold;
         font-size: 22px;
         margin: 0px 0px 0px 0px;
+        font-family: $header-font;
         a{
             text-decoration: none;
             color: whitesmoke;
@@ -43,6 +48,7 @@ ul{
         text-decoration: none;
         color: whitesmoke;
         padding: 16px 0px 16px 0px;
+        font-family: $header-font;
 
         &:hover{
             border-bottom: solid 2px white;

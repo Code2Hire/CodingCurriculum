@@ -1,4 +1,17 @@
+//VARABLES
+$header-font: fantasy;
+
 * {box-sizing:border-box}
+
+.container{
+  margin: 50px auto 0px 0px;
+}
+.featured-container__h2{
+  font-family: $header-font;
+}
+.featured-container__p{
+  
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -101,3 +114,4 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+

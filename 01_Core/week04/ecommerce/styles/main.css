@@ -1,6 +1,7 @@
 .main {
-  width: 60%;
+  width: 75%;
   margin: auto;
+  position: relative;
 }
 
 ul {
@@ -31,6 +32,7 @@ ul {
   font-weight: bold;
   font-size: 22px;
   margin: 0px 0px 0px 0px;
+  font-family: fantasy;
 }
 
 .navbar .nav-title a {
@@ -56,6 +58,7 @@ ul {
   text-decoration: none;
   color: whitesmoke;
   padding: 16px 0px 16px 0px;
+  font-family: fantasy;
 }
 
 .navbar .navbar-anchor:hover {

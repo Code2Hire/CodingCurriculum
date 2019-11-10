@@ -57,7 +57,8 @@ ul {
   margin: auto 0px auto 0px;
   text-decoration: none;
   color: whitesmoke;
-  padding: 16px 0px 16px 0px;
+  padding-bottom: 12px;
+  padding-top: 100%;
   font-family: fantasy;
 }
 

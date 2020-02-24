@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Week 2 assignaments</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <div class="navbar">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <div class="dropdown">
+                    <button class="dropbutton" onclick="list()">5
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="dropdownContent">
+                        <a href="#">Page 1</a>
+                        <a href="#">Page 3</a>
+                        <a href="#">Page 2</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="colors">Rainbow:</h2>
+                <ul>
+                    <li class="red">Red</li>
+                    <li class="orange">Orange</li>
+                    <li class="yellow">Yellow</li>
+                    <li class="green">Green</li>
+                    <li class="blue">Blue</li>
+                    <li class="indigo">Indigo</li>
+                    <li class="violet">Violet</li>
+                </ul>
+                
+            <h1>Coding is fun!</h1>
+            <h3>Learning HTML:</h3>
+            <p>This week we learned how to use HTML.</p>
+            <h3>Learning CSS:</h3>
+            <p>This week we also learned how to use CSS.</p>
+
+            <form action="#" method="GET" name="my_form">
+                <fieldset>
+                    <p class="info">Important Information:</p>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" name="first-name" id="first-name"> 
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" name="last-name" id="last-name"><br><br>
+                    <label for="Male">Choose Gender: </label>
+                    <input type="radio" name="gender" value="Male" id="Male">Male
+                    <input type="radio" name="gender" value="Female" id="Female">Female<br>
+                    <p class="toppings">Choose Your Favorite Pizza Toppings</p>
+                    <input type="checkbox" name="Toppings" Value="Pepperoni" id="Pepperoni">Pepperoni
+                    <input type="checkbox" name="Toppings" Value="Sausage" id="Sausage">Sausage
+                    <input type="checkbox" name="Toppings" Value="Bacon" id="Bacon">Bacon
+                    <input type="checkbox" name="Toppings" Value="Chicken" id="Chicken">Chicken
+                    <input type="checkbox" name="Toppings" Value="Pineapple" id="Pineapple">Pineapple
+                    <p class="sports"> Select a Sport:</p>
+                    <select>
+                        <option>Golf</option>
+                        <option>Football</option>
+                        <option>Basketball</option>
+                        <option>Hockey</option>
+                        <option>Tennis</option>
+                    </select><br>
+                    <button class="btnSave" onclick="saveToDatabase()"> Save</button>
+                </fieldset>
+            </form>
+            </div>
+
+            <div>
+                <p class="textbox">Enter Names Separated by Commas (not working)</p>
+                <textarea type="text" id="myText" value="some text..."></textarea><br><br>
+                <button class="btnSave" onclick="getNames()"> Save</button>
+                <div id="list"></div>
+            </div>
+
+            <div class="sidebar">
+                <ul>
+                    <li><a href="https://www.arvy.io">Arvy</a></li>
+                    <li><a href="https://www.reddit.com">Reddit</a></li>
+                    <li><a href="https://en.wikipedia.org">Wikipedia</a></li>
+                </ul>
+            </div>
+
+            
+            
+            <footer>
+                <p>&copy;2020 Week 2 assignaments.</p>
+                <a href="https://www.facebook.com">Facebook<span></span></a>
+                <a href="https://www.youtube.com">Youtube<span></span></a>
+                <a href="https://www.twitter.com">Twitter<span></span></a>
+            </footer>
+            <script src="script.js"></script>
+        </body>
+    </html>

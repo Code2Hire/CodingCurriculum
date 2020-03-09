@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="smallstyle.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="fullstyle.css">
+</head>
+<header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <h1>Product Details</h1>
+
+    <div> <img src="images/golf_set.jpeg" alt="Golf Set"></div>
+
+    <p>This is where my product detail information will go!</p>
+    <p>Price: $200</p>
+
+    <div class="purchaseForm">
+        <form>
+            <label for="dextarity">Right or Left handed?</label>
+            <input type="radio" name="dextarity" value="RH">RH
+            <input type="radio" name="dextarity" value="LH">LH
+            <label for="purchase">How many would you like to purchase?</label>
+            <select name="purchase" id="purchaseNumber">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <button class="purchaseSubmit" onclick="purchase()">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="smallstyle.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="fullstyle.css">
+</head>
+<header>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <form name="contactPage" class="contactPage" action="#" method="#" onsubmit="return validateForm()">
+        <p>Contact Information:</p>
+        <label for="Name">First & Last Name:</label>
+        <input type="text" name="name">
+        <label for="Email">Email Adress:</label>
+        <input type="text" name="mail">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="text" name="number">
+        <p>Preferred contact method:</p>
+        <label for="contactMethod">Phone or Email:</label>
+        <input type="radio" name="phone" value="phone">Phone
+        <input type="radio" name="email" value="email">Email
+        <p>How did you hear about us:</p>
+        <input type="checkbox">Conference
+        <input type="checkbox">TV
+        <input type="checkbox">Radio
+        <input type="checkbox">Word of Mouth
+        <input type="checkbox">Other
+        <p>Comments:</p>
+        <textarea name="comments" id="comments" cols="120" rows="15"></textarea>
+        <input type="submit" value="submit">
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

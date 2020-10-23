@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Exercise 3</title>
+  <meta name="description" content="ITA CSS Layout Exercise">
+  <meta name="author" content="Mark Kroh">
+
+  <style>
+	  .container {
+		display: flex;
+		height: 250px;
+		width: 250px;
+		flex-flow: row wrap;
+		align-items: center;
+	}
+	
+	.interior {
+		height: 100px;
+		width: 100px;
+		background-color: blue;
+		border: 2px solid white;
+	}
+	.div5 {
+		background-color: red;
+		position: absolute;
+		top: 83px;
+		left: 78px;
+		border: none;
+		transform: rotate(45deg);
+
+	}
+	.div5::before {
+		content: "";
+		background-color: #ffffff;
+		border-radius: 50%;
+		position: absolute;
+		height:25px;
+		width:25px;
+		top: 40px;
+		left: 38px;
+	}
+	.div5::after {
+		content: "\22C6";
+		position: absolute;
+		top: 40px;
+		left: 45px;
+		transform: rotate(30deg);
+
+
+	}
+  	
+  </style>
+</head>
+<body>
+	<!-- Do not touch the HTML please -->
+	<div class="container">
+		<div class="interior div1"></div>
+		<div class="interior div2"></div>
+		<div class="interior div3"></div>
+		<div class="interior div4"></div>
+		<div class="interior div5"></div>
+	</div>
+</body>
+</html>
